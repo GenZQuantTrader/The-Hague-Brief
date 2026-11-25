@@ -12,7 +12,7 @@ export default function OpinionsPage() {
           Opinions
         </h1>
         <p className="mt-2 text-neutral-600">
-          Commentary, columns, and distinct perspectives from our contributors.
+          Commentary, columns and distinct perspectives from our contributors.
         </p>
       </div>
 

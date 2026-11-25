@@ -6,7 +6,7 @@ export default function TeamPage() {
     <section className="space-y-8">
       <div className="border-b border-neutral-200 pb-6">
         <p className="text-xs font-semibold uppercase tracking-widest text-emerald-700">
-          Masthead
+            People & Culture
         </p>
         <h1 className="mt-2 font-serif text-4xl font-bold tracking-tight text-black">
           Our Team

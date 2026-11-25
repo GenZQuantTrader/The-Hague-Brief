@@ -5,7 +5,7 @@ export default function AboutPage() {
         <p className="text-xs font-semibold uppercase tracking-widest text-neutral-500">
           Who We Are
         </p>
-        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
+        <h1 className="text-3xl font-bold text-black tracking-tight sm:text-4xl">
           Global Issues, Expert Analysis and Thoughtful Conversations
         </h1>
         <p className="text-base leading-relaxed text-neutral-700">
