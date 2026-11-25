@@ -7,7 +7,7 @@ export default function HomePage() {
       <div className="flex flex-wrap items-center justify-between gap-2 border-y border-neutral-300 py-3 text-xs font-semibold uppercase tracking-widest text-neutral-600">
         <span className="flex items-center gap-2 text-emerald-700">
           <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-600" />
-          by International Law Association, Nigeria • Young Members Committee
+          ILA, Nigeria • Young Members Committee
         </span>
         <span>Global Issues • Candid Interviews • Expert Analysis</span>
         <span>Lagos • Hague • Global</span>
