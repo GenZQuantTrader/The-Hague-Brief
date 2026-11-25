@@ -1,8 +1,6 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: Request) {
   try {
     const { name, email, message } = await request.json();
@@ -14,13 +12,17 @@ export async function POST(request: Request) {
       );
     }
 
+    const apiKey = process.env.RESEND_API_KEY;
     const receiver = process.env.CONTACT_RECEIVER_EMAIL;
-    if (!receiver || !process.env.RESEND_API_KEY) {
+
+    if (!apiKey || !receiver) {
       return NextResponse.json(
-        { error: "Email service is not configured on the server yet." },
+        { error: "Email service is not configured on the server." },
         { status: 500 }
       );
     }
+
+    const resend = new Resend(apiKey);
 
     const { error } = await resend.emails.send({
       from: "Frontiers Contact <onboarding@resend.dev>",
@@ -31,11 +33,13 @@ export async function POST(request: Request) {
     });
 
     if (error) {
+      console.error("Resend API error:", error);
       return NextResponse.json({ error: error.message }, { status: 500 });
     }
 
     return NextResponse.json({ success: true });
-  } catch {
+  } catch (err) {
+    console.error("Contact route error:", err);
     return NextResponse.json(
       { error: "Something went wrong while sending your message." },
       { status: 500 }
