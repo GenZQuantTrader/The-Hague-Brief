@@ -17,9 +17,9 @@ const sans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "FRONTIERS — Ideas, Magazines & Perspectives",
+  title: "The Hague Brief",
   description:
-    "Independent magazines, candid interviews, reported articles, and sharp opinions.",
+    "Global issues, candid interviews, reported articles and sharp opinions.",
 };
 
 <Suspense fallback={null}>
