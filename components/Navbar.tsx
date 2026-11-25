@@ -61,7 +61,7 @@ export default function Navbar() {
               className="absolute right-0 top-13 w-60 rounded-2xl border border-neutral-200 bg-white p-2 shadow-2xl"
             >
               <p className="px-3 py-1.5 text-[11px] font-semibold uppercase tracking-widest text-neutral-400">
-                Sections
+                Options
               </p>
               <ul className="space-y-0.5">
                 {navLinks.map((item) => {

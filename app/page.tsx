@@ -17,22 +17,20 @@ export default function HomePage() {
       <section className="grid items-center gap-12 lg:grid-cols-12">
         <div className="space-y-6 lg:col-span-7">
           <span className="inline-block rounded-full bg-emerald-100 px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-emerald-900">
-            Cover Story • Innovation & Culture
+            Cover Story • Quarterly Icon
           </span>
           <h1 className="font-serif text-4xl font-bold leading-[1.1] tracking-tight text-black sm:text-6xl">
-            Ideas that shape tomorrow, crafted to be kept.
+            Ituah Imhanze MCIArb UK, FCArb: Managing Partner, KENNA
           </h1>
           <p className="max-w-xl text-lg leading-relaxed text-neutral-600">
-            The Hague Brief brings together reported features, unhurried interviews,
-            and collectible digital magazines—designed for readers who value
-            depth over noise.
+            "When I reflect on the moments that have shaped my career, I find that they have less to do with titles or landmark victories than with a lesson about what it truly means to serve a client well..."
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
             <Link
               href="/magazines"
               className="rounded-full bg-black px-6 py-3.5 text-sm font-semibold text-white shadow-md transition hover:-translate-y-0.5 hover:bg-emerald-700"
             >
-              Download Issue 01 (PDF)
+              Download The Hague Quarterly 01 (PDF)
             </Link>
             <Link
               href="/articles"
@@ -55,14 +53,19 @@ export default function HomePage() {
             </div>
 
             <div className="my-12 space-y-3">
+              <img 
+              src="/Ituah-Imhanze-FCArb.avif"
+              alt="Ituah Imhanze FCArb magazine feature"
+               className="h-full w-full object-cover"
+               />
               <p className="text-xs uppercase tracking-[0.25em] text-neutral-300">
                 The Inaugural Edition
               </p>
               <h2 className="font-serif text-4xl font-extrabold leading-tight">
-                THE NEW ARCHITECTS
+                Ituah Imahnze
               </h2>
               <p className="text-sm text-neutral-300">
-                Inside the minds redesigning warfare, cyberattack and criminal responsibility.
+                Inside the minds of Nigeria's leading legal experts, thought leaders and policy makers.
               </p>
             </div>
 
@@ -79,8 +82,8 @@ export default function HomePage() {
       {/* Featured Pull Quote */}
       <blockquote className="rounded-2xl border border-emerald-200 bg-emerald-50/70 p-8 md:p-10">
         <p className="font-serif text-2xl italic leading-relaxed text-black md:text-3xl">
-          “Great publications don’t chase the loudest headline of the hour—they
-          give readers clarity they will still cite a year from now.”
+          “We intend to continue to facilitate intellectual conversations within the community,
+          in order to ensure a sweeping coverage of all the issues that bother mankind.”
         </p>
         <footer className="mt-4 text-xs font-semibold uppercase tracking-widest text-emerald-800">
           — From the Editors’ Note, Issue 01
@@ -110,8 +113,8 @@ export default function HomePage() {
               Interviews →
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-              Candid, unhurried dialogues with founders, thinkers, and
-              creators—available to read or download.
+              Candid, unhurried dialogues with lawyers, policymakers and
+              industry leaders to read or download.
             </p>
           </Link>
 
@@ -120,13 +123,13 @@ export default function HomePage() {
             className="group rounded-2xl border border-neutral-200 bg-white/85 p-7 shadow-[0_12px_32px_-8px_rgba(10,10,10,0.08)] backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:border-emerald-700 hover:bg-white hover:shadow-xl"
           >
             <span className="text-xs font-bold uppercase tracking-widest text-emerald-700">
-              02 • Newsroom
+              02 • Features
             </span>
             <h3 className="mt-3 font-serif text-2xl font-bold text-black transition-colors group-hover:text-emerald-700">
               Articles & Opinions →
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-              Investigative features alongside bold essays from our regular
+              Interesting features alongside expert analysis from our regular
               columnists.
             </p>
           </Link>
@@ -136,13 +139,13 @@ export default function HomePage() {
             className="group rounded-2xl border border-neutral-200 bg-white/85 p-7 shadow-[0_12px_32px_-8px_rgba(10,10,10,0.08)] backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:border-emerald-700 hover:bg-white hover:shadow-xl"
           >
             <span className="text-xs font-bold uppercase tracking-widest text-emerald-700">
-              03 • Masthead
+              03 • People & Culture
             </span>
             <h3 className="mt-3 font-serif text-2xl font-bold text-black transition-colors group-hover:text-emerald-700">
-              Who We Are & Team →
+             Who we are →
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-              Meet the editors, writers, and designers building Frontiers.
+              Meet the editors, writers and designers building The Hague Brief.
             </p>
           </Link>
         </div>
