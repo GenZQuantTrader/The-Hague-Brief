@@ -9,7 +9,7 @@ export default function HomePage() {
           <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-600" />
           ILA, Nigeria • Young Members Committee
         </span>
-        <span>Global Issues • Candid Interviews • Expert Analysis</span>
+        <span>Global Issues • Expert Analysis</span>
         <span>Lagos • Hague • Global</span>
       </div>
 
